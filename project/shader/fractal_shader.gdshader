@@ -27,11 +27,11 @@ void fragment() {
     highp vec2 z = vec2(0.0);
 
     // Dynamically adjust the maximum number of iterations based on the zoom level
-    int max_iterations = 5000;
+    int max_iterations = 50000;
 
     highp float color_steps = 255.0;
 
-    highp float escape_radius = 100.0;
+    highp float escape_radius = 200.0;
     int iter_count = 0;
     for (int i = 0; i < max_iterations; i++) {
 		iter_count = i;
